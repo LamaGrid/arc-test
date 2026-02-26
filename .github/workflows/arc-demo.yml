@@ -6,6 +6,8 @@ jobs:
   Explore-GitHub-Actions:
     # Uses the ARC runner scale set installation name: lama-arc-runner-set
     runs-on: yocto-runner-set
+    container:
+      image: ubuntu:24.04
     permissions: {}
     steps:
     - run: echo "🎉 This job uses runner scale set runners!"
