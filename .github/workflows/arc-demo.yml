@@ -14,4 +14,4 @@ jobs:
     - run: ls -alh /
     - run: ls -alh /__*
     - run: ls -alh /__w/_tool
-    - run: ls -alh /opt/*
+    - run: mount
