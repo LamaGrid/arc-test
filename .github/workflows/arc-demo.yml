@@ -15,3 +15,4 @@ jobs:
     - run: ls -alh /__*
     - run: ls -alh /__w/_tool
     - run: mount
+    - run: ls -alh /github/*
