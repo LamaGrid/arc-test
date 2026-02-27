@@ -13,6 +13,7 @@ jobs:
     - run: echo "🎉 This job uses runner scale set runners!"
     - run: ls -alh /
     - run: ls -alh /__*
+    - run: ls -alh /__w/_sstate
     - run: ls -alh /__w/_tool
     - run: mount
     - run: ls -alh /github/*
